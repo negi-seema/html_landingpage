@@ -1,0 +1,217 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Work Sans", "Source Sans Pro", "Hubballi", "League Gothic", "Montserrat", "Oswald", "Roboto", sans-serif, "BhuTuka Expanded One", cursive;
+}
+
+.bg-pink-color {
+  background-color: #f2c6bd;
+}
+
+.bg-blue-color {
+  background-color: #3550c6;
+}
+
+.bg-facee-color {
+  background-color: #fef9f5;
+}
+
+.bg-light-blue {
+  background-color: #b8def3;
+}
+
+.bg-gray-color {
+  background-color: #f4f5f7;
+}
+
+.text-blue-color {
+  color: #3550c6;
+}
+
+.text-light-pencile-color {
+  color: #b59590;
+}
+
+.text-green-color {
+  color: #4c9c4e;
+}
+
+.text-black-color {
+  color: #48464a;
+}
+
+.text-light-gray {
+  color: #959597;
+}
+
+.text-dark-black {
+  color: #2b292e;
+}
+
+.font-100 {
+  font-weight: 100;
+}
+
+.font-200 {
+  font-weight: 200;
+}
+
+.font-300 {
+  font-weight: 400;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+.font-800 {
+  font-weight: 800;
+}
+
+.font-900 {
+  font-weight: 900;
+}
+
+.font-size-10 {
+  font-size: 10px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-22 {
+  font-size: 22px;
+}
+
+@media (max-width: 992px) {
+  .bg__section {
+    background-color: #b8def3;
+  }
+  .navbar__ul {
+    -webkit-box-shadow: 0px 0px 11.1px 2.1px #c1bebe;
+            box-shadow: 0px 0px 11.1px 2.1px #c1bebe;
+    background-color: #fff;
+  }
+  .navbar__li {
+    background-color: #fff;
+    border-bottom: 2px solid #e8f5fdeb;
+    padding: 3px;
+  }
+}
+
+.bordering__style {
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #fff;
+  position: absolute;
+  top: -18px;
+  right: 67px;
+}
+
+.dropmenu-hover:hover h6 {
+  color: #4c9c4e;
+}
+
+@media (max-width: 992px) {
+  .bordering__style {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .dropmenu__sizing {
+    width: 550px;
+  }
+}
+
+.btn__hover {
+  outline: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn__hover[aria-expanded="true"] {
+  color: #3550c6;
+}
+
+.btn__hover:hover {
+  color: #3550c6;
+  text-decoration: none;
+}
+
+.custom-card button:focus {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
+.custom-card:hover {
+  background-color: #3550c6 !important;
+}
+
+.custom-card:hover .span-heading {
+  color: #fff !important;
+}
+
+@media (min-width: 992px) {
+  .visitors {
+    width: 500px;
+    margin: auto;
+  }
+}
+
+.play-card:hover {
+  background-color: #3550c6 !important;
+}
+
+.play-card:hover h5 {
+  color: #fff !important;
+}
+
+@media (min-width: 992px) {
+  .carousel__sizing {
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .accordian__btn {
+    width: 600px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .started__btn {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=bootstrap.css.map */

@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstap cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+
+    <!-- css file -->
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Hubballi&family=League+Gothic&family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,800;1,900&family=Oswald:wght@400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&family=Rubik:wght@300;400;500;700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&family=Work+Sans:wght@300;400;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Hubballi&family=League+Gothic&family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,800;1,900&family=Oswald:wght@400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&family=Rubik:wght@300;400;500;700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&family=Work+Sans:wght@300;400;600;700;800;900&display=swap"
+        rel="stylesheet" />
+
+    <!-- google icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+</head>
+
+<body>
+    <!-- navbar  -->
+    <section class="bg__section bg-pink-color ">
+        <!-- first section  -->
+        <div class="container  bg__section ">
+            <nav class="navbar navbar-expand-lg navbar-light bg-pink-color  bg__section pl-0 pr-0 pt-3 pb-3">
+                <div class="d-flex">
+                    <div class="d-flex justify-content-center align-items-center border bg-white p-2">
+                        <img src="./image/chess-piece.png" width="30" height="35" alt="logo" />
+                    </div>
+                    <div class="d-flex flex-column pl-2">
+                        <a class="text-dark font-800 pb-0" href="#">Foundation</a>
+                        <span class=" font-600 font-size-12 text-muted">Startup landing template</span>
+                    </div>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation" style="outline:none">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mt-3  mt-lg-0 navbar__ul d-lg-flex align-items-lg-center ">
+                        <li class="nav-item pl-0 pl-lg-3 navbar__li active">
+                            <a class="nav-link text-light-pencile-color font-700  p-3 p-lg-0 " href="#">Home <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item pl-0 pl-lg-3 navbar__li  ">
+                            <a class="nav-link text-light-pencile-color font-600  p-3 p-lg-0" href="#">Stories</a>
+                        </li>
+                        <li class="nav-item pl-0 pl-lg-3 pr-lg-1  navbar__li  dropdown">
+                            <a class="nav-link text-light-pencile-color font-600 pr-lg-5  p-3 p-lg-0 d-flex justify-content-between align-items-center"
+                                href="#" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false" data-offset="10,20">Library <i
+                                    class="bi bi-chevron-down pl-2 font-size-10"></i></a>
+
+                            <div class="dropdown-menu dropdown-menu-right border-0 mt-lg-3 mt-2 shadow-lg"
+                                aria-labelledby="dropdownMenuOffset">
+                                <div class="d-flex p-1 pt-2 pl-4 pr-4 dropmenu__sizing">
+                                    <div class="bordering__style"></div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="p-2 dropmenu-hover text-black-color ">
+                                                <a href="#" class="text-decoration-none text-black-color">
+                                                    <h6 class="font-800 font-size-20">Acquire Users</h6>
+                                                </a>
+                                                <p class="font-500">
+                                                    Work with the tools and services you use.
+                                                </p>
+                                            </div>
+                                            <div class="p-2 dropmenu-hover text-black-color text-decoration-none">
+                                                <a href="#" class="text-decoration-none text-black-color">
+                                                    <h6 class="font-800 font-size-20">
+                                                        Book Appointments
+                                                    </h6>
+                                                </a>
+                                                <p>
+                                                    We offer measures like 2FA to ensure the safety.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="p-2 dropmenu-hover text-black-color text-decoration-none">
+                                                <a href="#" class="text-decoration-none text-black-color">
+                                                    <h6 class="font-800 font-size-20">
+                                                        Engage Customers
+                                                    </h6>
+                                                </a>
+                                                <p>
+                                                    Get started with our simple snippet of JavaScript.
+                                                </p>
+                                            </div>
+                                            <div class="p-2 dropmenu-hover text-black-color text-decoration-none">
+                                                <a href="#" class="text-decoration-none text-black-color">
+                                                    <h6 class="font-800 font-size-20">Generate Leads</h6>
+                                                </a>
+                                                <p>
+                                                    Become a better designer by learning this courses.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white bg-blue-color font-size-14 p-lg-2 p-3 text-center pr-lg-4 pl-lg-4 font-600 btn rounded-0"
+                                href="#">Get Started</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- section-second  -->
+    <section class=" bg-pink-color">
+        <section class="pt-5 pb-5">
+            <div class="container ">
+                <div class="row ">
+                    <div class=" col-md-6 col-lg-4 ">
+                        <h1 class=" pt-3 font-weight-bold">
+                            Build stunning websites
+                        </h1>
+                        <p class="text-black-color font-500 pt-3 pr-5">
+                            Create live segments and target the right people for messages
+                            based on their behaviors.
+                        </p>
+                        <div class="pt-4 pb-4">
+                            <span>
+                                <button
+                                    class="font-size-12 p-2 pr-4 pl-4 font-600  btn bg-blue-color text-white border-0 rounded-0">
+                                    Get Started
+                                </button>
+                            </span>
+                            <span class="pl-1">
+                                <button
+                                    class="font-size-12 p-2 pr-4 pl-4 font-700 btn bg-white border-0 rounded-0 text-blue-color">
+                                    Learn More
+                                </button></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg ">
+                        <div class="w-80 pt-4 pb-5">
+                            <img src="./image/boy-reading.svg" class="image-fluid"
+                                style="width: 100%; height: 250px" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- third-section  -->
+    <section class="pt-5 pb-5">
+        <div class="container  ">
+            <div class="row ">
+                <div class="col-md-12 col-lg-4">
+                    <h5 class="font-700 font-size-16 text-green-color pt-5">Features</h5>
+                    <h1 class="font-weight-bold pt-2">
+                        Easily find leads and customers
+                    </h1>
+                    <p class="pt-2 text-black-color font-500">
+                        Send one-off and automated email, push,and in-app messages to
+                        people. Create better stories.
+                    </p>
+                    <div class="accordion pt-2" id="accordionExample">
+                        <div class="card border-0 ">
+                            <div class="card-header bg-white pl-0" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn__hover btn pl-0 btn-block text-left font-weight-bold"
+                                        type="button" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="false" aria-controls="collapseOne">
+                                        <i class="bi bi-compass-fill"></i> Acquire new
+                                        customers
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Everything you need to start building-including open-source
+                                    code,documentation.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-left-0 border-right-0 ">
+                            <div class="card-header pl-0 bg-white" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn__hover btn pl-0  btn-block text-left collapsed  font-weight-bold"
+                                        type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        <i class="bi bi-bank2 "></i> Engage users
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-left-0 border-right-0 ">
+                            <div class="card-header  pl-0 bg-white" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn__hover btn  pl-0 btn-block text-left collapsed font-weight-bold"
+                                        type="button" data-toggle="collapse" data-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree">
+                                        <i class="bi bi-laptop-fill "></i> Develop access
+                                        platforms
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    provident!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg">
+                    <div class="w-100  pl-lg-5 pt-5">
+                        <img src="./image/pexels-tranmautritam-326518.jpg" class="image-fluid rounded"
+                            alt="landing page" style="width: 100%" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section fourth  -->
+
+    <section class="bg-facee-color">
+        <div class="container   pt-5">
+            <div class="pt-5 pb-5 ">
+                <div class="row">
+                    <div class="col-lg">
+                        <div class="w-50 d-flex flex-column m-auto">
+                            <img src="./image/fortune-wheel.png" class="image-fluid" style="width: 100%"
+                                alt="spinning wheel" />
+                            <p class="pt-5 text-center font-size-12 text-light-gray font-500">
+                                Connect with customers and grow faster
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+
+                        <div class="pr-5 font-size-18 font-300 text-center text-lg-left pt-5 pt-lg-0">
+                            <h6 class="text-danger font-weight-bold">Team Inbox</h6>
+                            <h1 class="font-weight-bold pt-3">Manage conversations</h1>
+                            <p class="pt-3 pb-4">
+                                One place to manage and respond to all conversations with
+                                leads and users. Receive messages from leads.
+                            </p>
+                        </div>
+                        <div class="shadow">
+                            <div class="pl-4 pr-4 pt-3 pb-3 rounded-top bg-white"
+                                style="border-bottom: 5px solid rgb(54, 162, 221)">
+                                <p class="card-text font-size-18 font-500">
+                                    "Great widgets. Great selection. Great design and
+                                    <strong>easy to implement.</strong> Definitely a huge time
+                                    saver for a web developer!"
+                                </p>
+                                <div class="d-flex">
+                                    <div style="flex-basis:50px">
+                                        <img src="./image/boy.png" style="max-width: 100%" alt="boy image"
+                                            class="border rounded-circle image-fluid" />
+                                    </div>
+                                    <div class="pl-3 flex-fill">
+                                        <span class="d-block font-weight-bold">Viella Malkovich</span>
+                                        <small class=" text-muted font-500">Creative Director at Johnson</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- fifth section  -->
+    <section class="bg-light-blue">
+        <!-- fifth section  -->
+        <div class="container  pt-5 pb-5">
+            <div class="visitors text-center m-auto ">
+                <h6 class="font-weight-bold font-size-18 pb-3">Engage Visitors</h6>
+                <h1 class="card-title font-700 h1">
+                    Understand your audience
+                </h1>
+                <p class="card-text text-muted font-500 p-lg-3 pl-lg-5 pr-lg-5 font-size-20">
+                    Early stage company? Eligible applicants get all of our products for
+                    just $49 a month.
+                </p>
+                <div class="pt-4 pb-4">
+                    <span>
+                        <button
+                            class="font-size-16 p-2 pr-4 pl-4 font-600  btn bg-blue-color text-white border-0 rounded-0">
+                            Get Started
+                        </button>
+                    </span>
+                    <span class="p-md-1">
+                        <button
+                            class="font-size-16 p-2 pr-4 pl-4  mt-md-0 font-700  btn bg-white border-0 rounded-0 text-blue-color">
+                            Learn More
+                        </button></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- sex section  -->
+        <div class="container  pb-5 ">
+            <div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="shadow text-center border rounded-lg pt-3 pb-2 mb-3 mb-mb-0  bg-white play-card">
+                            <a href="#"><img src="./image/BULB04-LED.svg" class="image-fluid " style="width: 70%"
+                                    alt="developer" />
+                                <h5 class="pt-4 pb-4 text-dark font-700 headings">
+                                    Developers
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="shadow text-center border rounded-lg pt-3 pb-2 mb-3 mb-mb-0  bg-white play-card">
+                            <a href="#"><img src="./image/BULB04-LED.svg" class="image-fluid" style="width: 70%"
+                                    alt="developer" />
+                                <h5 class="pt-4 pb-4 text-dark font-700 headings">
+                                    Entertainment
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="shadow text-center border rounded-lg pt-3 pb-2 mb-3 mb-mb-0  bg-white play-card">
+                            <a href="#"><img src="./image/BULB04-LED.svg" class="image-fluid" style="width: 70%"
+                                    alt="developer" />
+                                <h5 class="pt-4 pb-4 text-dark font-700 headings">
+                                    Athletes
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="shadow text-center border rounded-lg pt-3 pb-2 mb-3 mb-mb-0  bg-white play-card">
+                            <a href="#"><img src="./image/BULB04-LED.svg" class="image-fluid" style="width: 70%"
+                                    alt="developer" />
+                                <h5 class="pt-4 pb-4 text-dark font-700 headings">
+                                    Creators
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-seven  -->
+    <section class="mt-5">
+        <div class="container  pb-5">
+            <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0"
+                        class="active rounded-circle bg-primary" style="width: 8px; height: 8px"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="rounded-circle bg-primary"
+                        style="width: 8px; height: 8px"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="rounded-circle bg-primary"
+                        style="width: 8px; height: 8px"></li>
+                </ol>
+                <div class="carousel-inner text-center carousel__sizing">
+                    <div class="carousel-item active pt-5 pb-4 ">
+                        <h5 class="text-blue-color font-700 font-size-20">
+                            Trusted by the world's most innovative businesses - big and
+                            small
+                        </h5>
+                        <p class="w-100 w-mb-50 m-auto pt-3 font-size-20">
+                            "Comprehensive set of startup tools for all imaginable
+                            entrepreneurial needs.Create landing pages,send emails, find
+                            freelancers.Perfect for sales,marketing,and support"
+                        </p>
+                        <div class="pt-5 pb-4">
+                            <h6 class="mb-0 font-weight-bold">Viella Malkovich</h6>
+                            <small class="text-muted">Creative Director at Johnson</small>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt-5 pb-5 ">
+                        <h5 class="text-blue-color font-700 font-size-20">
+                            In the world's most businesses - big and small
+                        </h5>
+                        <p class="w-100 w-mb-50 m-auto pt-3 font-size-20">
+                            "Send emails, find freelancers. Perfect for sales, marketing,
+                            and support Comprehensive set of startup tools for all
+                            imaginable entrepreneurial needs.Create landing pages, "
+                        </p>
+                        <div class="pt-5 pb-5">
+                            <h6 class="mb-0 font-weight-bold">Viella Malkovich</h6>
+                            <small class="text-muted">Creative Director at Johnson</small>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt-5 pb-5 ">
+                        <h5 class="text-blue-color font-700 font-size-20">
+                            Big and small businesses trusted by the world's most
+                        </h5>
+                        <p class="w-100 w-mb-50 m-auto pt-3 font-size-20">
+                            "Create landing pages, send emails Comprehensive set of startup tools for all imaginable
+                            entrepreneurial needs., find
+                            freelancers. Perfect for sales, marketing, and support"
+                        </p>
+                        <div class="pt-5 pb-5">
+                            <h6 class="mb-0 font-weight-bold">Viella Malkovich</h6>
+                            <small class="text-muted">Creative Director at Johnson</small>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-eight -->
+    <section>
+        <div class="container  pt-5 pb-5">
+            <div class="accordion pt-2 accordian__btn" id="Exampleaccordion">
+                <div class="accordian__btn">
+                    <div class=" border  mb-3 rounded-lg shadow ">
+                        <div class=" accordian__btn  custom-card pl-0 " id="headingOne">
+                            <h2 class="mb-0">
+                                <button class=" btn  p-4 btn-block text-left font-weight-bold" type="button"
+                                    data-toggle="collapse" data-target="#Onecollapse" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    <div class="d-flex justify-content-between align-items-center span-heading">
+                                        <span>Front-End Developer</span><small style="white-space:nowrap">Los Angeles /
+                                            Remote <i class="bi bi-chevron-right pl-sm-0 pl-md-3"></i></small></div>
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="Onecollapse" class="collapse" aria-labelledby="headingOne"
+                            data-parent="#Exampleaccordion">
+                            <div class="card-body">
+                                Everything you need to start building-including open-source
+                                code,documentation.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="  border rounded-lg shadow mb-3">
+                        <div class=" pl-0  bg-white custom-card " id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class=" btn  p-4  btn-block text-left collapsed  font-weight-bold" type="button"
+                                    data-toggle="collapse" data-target="#Twocollapse" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    <div class="d-flex justify-content-between span-heading align-items-center"><span>
+                                            Community Manager</span><small style="white-space:nowrap">New York /
+                                            Full-Time <i class="bi bi-chevron-right pl-0 pl-sm-0 pl-md-3"></i></small>
+                                    </div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="Twocollapse" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#Exampleaccordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" border  rounded-lg shadow mb-3">
+                        <div class="  pl-0 bg-white custom-card" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn  p-4 btn-block text-left collapsed font-weight-bold" type="button"
+                                    data-toggle="collapse" data-target="#Threecollapse" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    <div class="d-flex justify-content-between span-heading align-items-center">
+                                        <span>UX/UI Designer</span><small style="white-space:nowrap">New York /
+                                            Full-Time <i class="bi bi-chevron-right pl-sm-0 pl-md-3"></i></small></div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="Threecollapse" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#Exampleaccordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                provident!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-nine  -->
+    <section class="bg-gray-color pt-5">
+        <div class="container  pt-5 pb-5 ">
+            <div class="row ">
+                <div class="col-lg-5">
+                    <div class="d-flex justify-content-center">
+                        <img src="./image/free-icon-40410.png" class="image-fluid" alt=" free trial" style="width:80%"
+                            class="m-auto" />
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="d-flex flex-column  align-items-left justify-content-center" style="height: 100%">
+                        <h1 class="font-700">Start your free trial.</h1>
+                        <p class="pt-2 pb-2 pr-5 font-size-18">
+                            Get notified about compan updates, news and blog posts. We hate
+                            spam.
+                        </p>
+                        <form class="form-inline">
+                            <div class="form-group mr-sm-3 mb-2">
+                                <label for="inputPassword2" class="sr-only">Password</label>
+                                <input type="password" class="form-control" id="inputPassword2"
+                                    placeholder="Enter your email" />
+                            </div>
+                            <button type="submit"
+                                class="btn bg-blue-color text-white mb-2 pr-4 pl-4 started__btn font-weight-bold">
+                                Get Started
+                            </button>
+                        </form>
+                        <small class="text-muted pt-2">Free 14-day trial. Cancel any time. Check out
+                            <a href="#" class="text-blue-color"><u>Terms of Use</u></a></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-ten  -->
+    <section>
+        <div class="container ">
+            <div class="pt-5 pb-5">
+                <div class="pb-5">
+                    <div class="row">
+                        <div class="col-lg-4 col-12">
+                            <div class="d-flex pt-1  text-lg-left justify-content-center justify-content-lg-start ">
+                                <div class="d-flex  align-items-center border bg-white p-2" style="border-radius: 10px">
+                                    <img src="./image/chess-piece.png" class="image-fluid" width="30" height="35"
+                                        alt="chess-piece" />
+                                </div>
+                                <div class="d-flex flex-column pl-3">
+                                    <a class="text-dark font-weight-bold pb-0" href="#">Foundation</a>
+                                    <span class="text-muted">Startup landing template</span>
+                                </div>
+                            </div>
+                            <div class="pt-4 text-center text-lg-left ">
+                                <p class="text-muted">
+                                    Foundation is a website template for startups and small
+                                    teams. It helps to build a website in no time.
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-between ">
+                                <a href="#"><img src="./image/App_Store_(iOS)-Badge-Logo.wine.svg" alt="app store"
+                                        class="image-fluid" style="max-width: 130px" /></a>
+                                <a href="#"> <img src="./image/Google_Play-Badge-Logo.wine.svg" alt="play store"
+                                        class="image-fluid" style="max-width: 130px" /></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="pl-0 pl-lg-4 text-center text-lg-left ">
+                                <h5 class="list-group-item font-weight-bold border-0 pb-0 pl-0">
+                                    Product
+                                </h5>
+                                <ul class="list-group text-muted pl-0">
+                                    <li class="list-group-item pb-0 border-0  pl-0"><a href="#"
+                                            class=" text-muted">Acquite Users</a></li>
+                                    <li class="list-group-item pb-0 border-0  pl-0">
+                                        <a href="#" class=" text-muted">Content Marketing</a>
+                                    </li>
+                                    <li class="list-group-item pb-0 border-0  pl-0">
+                                        <a href="#" class=" text-muted"> Website Templates</a>
+                                    </li>
+                                    <li class="list-group-item pb-0 border-0  pl-0">
+                                        <a href="#" class=" text-muted"> Customer Management</a>
+                                    </li>
+                                    <li class="list-group-item border-0  pl-0"><a href="#" class=" text-muted">Virtual
+                                            Inbox</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="pl-0 text-center text-lg-left ">
+                                <h5 class="list-group-item font-weight-bold border-0 pb-0  pl-0">
+                                    Company
+                                </h5>
+                                <ul class="list-group text-muted  font-500 ">
+                                    <li class="list-group-item pb-0 border-0  pl-0">
+                                        <a href="#" class=" text-muted"> About Foundation</a>
+                                    </li>
+                                    <li class="list-group-item pb-0 border-0  pl-0">
+                                        <a href="#" class=" text-muted"> Brand Guidelines</a>
+                                    </li>
+                                    <li class="list-group-item pb-0 border-0  pl-0"><a href="#"
+                                            class=" text-muted">Press Kit</a></li>
+                                    <li class="list-group-item border-0  pl-0"><a href="#"
+                                            class=" text-muted">Support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between border-top">
+                    <div class="mt-3">
+                        <small><a href="#" class=" pr-3 text-muted">Terms</a></small>
+                        <small><a href="#" class="pr-3 text-muted">Privacy</a></small>
+                        <small><a href="#" class="text-muted">License</a></small>
+                    </div>
+                    <div class="mt-3">
+                        <a href="#"> <i class="bi bi-twitter text-muted"></i></a>
+                        <a href="#"> <i class="bi bi-facebook pl-3 text-muted"></i></a>
+                        <a href="#"> <i class="bi bi-linkedin pl-3 text-muted"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- bootstrap js  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

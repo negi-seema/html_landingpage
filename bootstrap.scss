@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  font-family: "Work Sans", "Source Sans Pro", "Hubballi", "League Gothic",
+    "Montserrat", "Oswald", "Roboto", sans-serif, "BhuTuka Expanded One",
+    cursive;
+}
+
+// background-color
+$pink-color: rgb(242, 198, 189);
+$blue-color: rgb(53, 80, 198);
+$facee-color: rgb(254, 249, 245);
+$light-blue-color: rgb(184, 222, 243);
+$gray-color: rgb(244, 245, 247);
+
+.bg-pink-color {
+  background-color: $pink-color;
+}
+
+.bg-blue-color {
+  background-color: $blue-color;
+}
+
+.bg-facee-color {
+  background-color: $facee-color;
+}
+
+.bg-light-blue {
+  background-color: $light-blue-color;
+}
+
+.bg-gray-color {
+  background-color: $gray-color;
+}
+
+// text-color
+
+$light-pencile-color: rgb(181, 149, 144);
+$green-color: rgb(76, 156, 78);
+$light-gray-color: rgb(149, 149, 151);
+$black-color: rgb(72, 70, 74);
+$dark-black-color: rgb(43, 41, 46);
+.text-blue-color {
+  color: $blue-color;
+}
+.text-light-pencile-color {
+  color: $light-pencile-color;
+}
+.text-green-color {
+  color: $green-color;
+}
+.text-black-color {
+  color: $black-color;
+}
+.text-light-gray {
+  color: $light-gray-color;
+}
+.text-dark-black {
+  color: $dark-black-color;
+}
+
+// font-weights
+.font-100 {
+  font-weight: 100;
+}
+.font-200 {
+  font-weight: 200;
+}
+.font-300 {
+  font-weight: 400;
+}
+.font-400 {
+  font-weight: 400;
+}
+.font-500 {
+  font-weight: 500;
+}
+.font-600 {
+  font-weight: 600;
+}
+.font-700 {
+  font-weight: 700;
+}
+.font-800 {
+  font-weight: 800;
+}
+.font-900 {
+  font-weight: 900;
+}
+
+// font-size
+.font-size-10 {
+  font-size: 10px;
+}
+.font-size-12 {
+  font-size: 12px;
+}
+.font-size-14 {
+  font-size: 14px;
+}
+.font-size-16 {
+  font-size: 16px;
+}
+.font-size-18 {
+  font-size: 18px;
+}
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-22 {
+  font-size: 22px;
+}
+
+// dropdown Menu
+
+@media (max-width: 992px) {
+  .bg__section {
+    background-color: $light-blue-color;
+  }
+  .navbar__ul {
+    box-shadow: 0px 0px 11.1px 2.1px #c1bebe;
+    background-color: #fff;
+  }
+  .navbar__li {
+    background-color: #fff;
+    border-bottom: 2px solid#e8f5fdeb;
+
+    padding: 3px;
+  }
+}
+.bordering__style {
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #fff;
+  position: absolute;
+  top: -18px;
+  right: 67px;
+}
+
+.dropmenu-hover:hover {
+  h6 {
+    color: $green-color;
+  }
+}
+
+@media (max-width: 992px) {
+  .bordering__style {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .dropmenu__sizing {
+    width: 550px;
+  }
+}
+
+// third-section-accordians
+
+.btn__hover {
+  outline: none;
+  box-shadow: none !important;
+ 
+}
+.btn__hover[aria-expanded="true"]{
+  color:$blue-color;
+}
+.btn__hover:hover {
+  color: $blue-color;
+  text-decoration: none;
+}
+
+.custom-card {
+  button {
+    &:focus {
+      box-shadow: unset;
+    }
+  }
+  &:hover {
+    background-color: $blue-color !important;
+    .span-heading {
+      color: #fff !important;
+    }
+  }
+}
+
+// fifth-section
+@media (min-width: 992px) {
+  .visitors {
+    width: 500px;
+    margin: auto;
+  }
+}
+
+// six-section
+.play-card:hover {
+  background-color: $blue-color !important ;
+  h5 {
+    color: #fff !important;
+  }
+}
+
+// sever-section
+@media (min-width: 992px) {
+  .carousel__sizing {
+    // width: 650px;
+    margin: auto;
+  }
+}
+
+// section-eight
+
+@media (min-width: 992px) {
+  .accordian__btn {
+    width: 600px;
+    margin: auto;
+  }
+}
+
+//section-nine
+@media (max-width: 768px) {
+  .started__btn {
+    width: 100%;
+  }
+}
+
+// section-ten
